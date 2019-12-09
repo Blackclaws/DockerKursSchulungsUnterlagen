@@ -1,0 +1,1 @@
+Creates a nextcloud instance with db, where data is persisted in volumes. Database and admin user are configured automatically.

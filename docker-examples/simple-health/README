@@ -1,0 +1,3 @@
+Simple healthcheck. Container should become healthy if you create a file /home/healthy in it. For example by running
+
+docker exec touch containerName /home/healthy

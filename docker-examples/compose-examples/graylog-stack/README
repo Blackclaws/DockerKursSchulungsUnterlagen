@@ -1,0 +1,7 @@
+This runs the graylog logging stack as a compose file.
+
+You need to enable GELF TCP/UDP input via the webinterface then you can run:
+
+docker run --log-driver gelf --log-opt gelf-address=tcp://localhost:12201 imageName
+
+to log to graylog
